@@ -31,7 +31,8 @@ const About = () => {
             <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
                 <h2 className="font-general text-sm uppercase md:text-[10px]">Welcome to KeepUpEnglish</h2>
 
-                <AnimatedTitle />
+                <AnimatedTitle
+                    title="Le<b>a</b>rn by d<b>o</b>ing <b>a</b>nd Tr<b>a</b>ck y<b>o</b>ur pr<b>o</b>gress" containerClass="mt-5 !text-black text-center" />
 
 
                 <div className="about-subtext">
